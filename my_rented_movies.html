@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block hero %}
+<div class="hero-section fade-in">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="hero-title">My Rented Movies</h1>
+                <p class="hero-subtitle">Manage your movie rentals</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% if rentals %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    {% for rental in rentals %}
+    <div class="col">
+        <div class="card movie-card h-100">
+            {{% if rental.movie.poster_url %}
+            <img src="{{ rental.movie.poster_url }}" class="card-img-top movie-poster" alt="{{ rental.movie.title }}">
+            {% elif rental.movie.poster %}
+            <img src="{{ rental.movie.poster.url }}" class="card-img-top movie-poster" alt="{{ rental.movie.title }}">
+            {% else %}
+            <div class="card-img-top movie-poster bg-light d-flex justify-content-center align-items-center">
+                <span class="text-muted">No Image</span>
+            </div>
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title">{{ rental.movie.title }}</h5>
+                <p class="card-text">
+                    <span class="rating-star">★</span> {{ rental.movie.rating }}/10 | {{ rental.movie.release_year }}
+                </p>
+                <p class="card-text">
+                    <i class="fas fa-calendar-alt"></i> Rented on: {{ rental.rented_date|date:"F d, Y" }}
+                </p>
+                <div class="d-flex justify-content-between mt-auto">
+                    <a href="{% url 'movie_detail' rental.movie.id %}" class="btn btn-outline-primary">
+                        <i class="fas fa-info-circle"></i> Details
+                    </a>
+                    <a href="{% url 'return_movie' rental.movie.id %}" class="btn btn-return">
+                        <i class="fas fa-undo"></i> Return
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="text-center py-5">
+    <i class="fas fa-film fa-4x mb-3 text-muted"></i>
+    <h3>You haven't rented any movies yet.</h3>
+    <p class="lead">Explore our extensive collection and find your next favorite movie!</p>
+    <a href="{% url 'home' %}" class="btn btn-primary mt-3">
+        <i class="fas fa-search"></i> Browse Movies
+    </a>
+</div>
+{% endif %}
+{% endblock %}

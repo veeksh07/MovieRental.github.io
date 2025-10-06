@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card mb-4">
+            {% if movie.poster_url %}
+<img src="{{ movie.poster_url }}" class="card-img-top" alt="{{ movie.title }}">
+{% elif movie.poster %}
+<img src="{{ movie.poster.url }}" class="card-img-top" alt="{{ movie.title }}">
+{% else %}
+<div class="bg-light p-5 d-flex justify-content-center align-items-center" style="height: 400px;">
+    <span class="text-muted">No Image</span>
+</div>
+{% endif %}
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    {% if user.is_authenticated %}
+                        {% if user_rented %}
+                            <a href="{% url 'return_movie' movie.id %}" class="btn btn-return">
+                                <i class="fas fa-undo"></i> Return Movie
+                            </a>
+                        {% elif movie.is_rented %}
+                            <button class="btn btn-secondary" disabled>
+                                <i class="fas fa-lock"></i> Already Rented
+                            </button>
+                        {% else %}
+                            <a href="{% url 'rent_movie' movie.id %}" class="btn btn-rent">
+                                <i class="fas fa-shopping-cart"></i> Rent Movie
+                            </a>
+                        {% endif %}
+                    {% else %}
+                        <a href="{% url 'login' %}" class="btn btn-primary">
+                            <i class="fas fa-sign-in-alt"></i> Login to Rent
+                        </a>
+                    {% endif %}
+                    <a href="{% url 'home' %}" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to Movies
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Movie Info</h5>
+            </div>
+            <div class="card-body">
+                <p><strong><i class="fas fa-film"></i> Title:</strong> {{ movie.title }}</p>
+                <p><strong><i class="fas fa-calendar"></i> Release Year:</strong> {{ movie.release_year }}</p>
+                <p><strong><i class="fas fa-star"></i> Rating:</strong> {{ movie.rating }}/10</p>
+                <p>
+                    <strong><i class="fas fa-tags"></i> Genres:</strong><br>
+                    {% for genre in movie.genre.all %}
+                    <span class="badge">{{ genre.name }}</span>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h1 class="mb-3">{{ movie.title }} <span class="text-muted">({{ movie.release_year }})</span></h1>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-info-circle"></i> Overview</h5>
+            </div>
+            <div class="card-body">
+                <p class="lead">{{ movie.description }}</p>
+            </div>
+        </div>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-users"></i> Cast</h5>
+            </div>
+            <div class="card-body">
+                <p>{{ movie.cast }}</p>
+            </div>
+        </div>
+        
+        {% if movie.trailer_url %}
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-play-circle"></i> Trailer</h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="ratio ratio-16x9">
+                    <iframe src="{{ movie.trailer_url }}" title="{{ movie.title }} trailer" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
