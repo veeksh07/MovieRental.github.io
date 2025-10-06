@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card auth-card">
+            <div class="card-header">
+                <h4 class="mb-0"><i class="fas fa-user-plus"></i> Sign Up</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    {% if form.errors %}
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle"></i> Please correct the errors below.
+                    </div>
+                    {% endif %}
+                    
+                    <div class="mb-3">
+                        <label for="id_username" class="form-label">Username</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <input type="text" name="username" id="id_username" class="form-control" required>
+                        </div>
+                        {% if form.username.errors %}
+                        <small class="text-danger">{{ form.username.errors }}</small>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="id_password1" class="form-label">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            <input type="password" name="password1" id="id_password1" class="form-control" required>
+                        </div>
+                        {% if form.password1.errors %}
+                        <small class="text-danger">{{ form.password1.errors }}</small>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="id_password2" class="form-label">Confirm Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            <input type="password" name="password2" id="id_password2" class="form-control" required>
+                        </div>
+                        {% if form.password2.errors %}
+                        <small class="text-danger">{{ form.password2.errors }}</small>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-user-plus"></i> Sign Up
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <p class="mb-0">Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
