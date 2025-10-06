@@ -1,0 +1,202 @@
+[
+    {
+      "title": "The Shawshank Redemption",
+      "genres": ["Drama"],
+      "release_year": 1994,
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/6hB3S9bIaco"
+    },
+    {
+      "title": "The Godfather",
+      "genres": ["Crime", "Drama"],
+      "release_year": 1972,
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "cast": "Marlon Brando, Al Pacino, James Caan",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/sY1S34973zA"
+    },
+    {
+      "title": "Inception",
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "release_year": 2010,
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/YoHD9XEInc0"
+    },
+    {
+      "title": "Parasite",
+      "genres": ["Drama", "Thriller"],
+      "release_year": 2019,
+      "rating": 8.6,
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/5xH0HfJHsaY"
+    },
+    {
+      "title": "Joker",
+      "genres": ["Crime", "Drama", "Thriller"],
+      "release_year": 2019,
+      "rating": 8.4,
+      "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+      "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/zAGVQLHvwOY"
+    },
+    {
+      "title": "The Dark Knight",
+      "genres": ["Action", "Crime", "Drama"],
+      "release_year": 2008,
+      "rating": 9.0,
+      "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/EXeTwQWrcwY"
+    },
+    {
+      "title": "Pulp Fiction",
+      "genres": ["Crime", "Drama"],
+      "release_year": 1994,
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "cast": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/s7EdQ4FqbhY"
+    },
+    {
+      "title": "Oppenheimer",
+      "genres": ["Biography", "Drama", "History"],
+      "release_year": 2023,
+      "rating": 8.5,
+      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+      "cast": "Cillian Murphy, Emily Blunt, Matt Damon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/uYPbbksJxIg"
+    },
+    {
+      "title": "Barbie",
+      "genres": ["Adventure", "Comedy", "Fantasy"],
+      "release_year": 2023,
+      "rating": 7.0,
+      "description": "Barbie suffers a crisis that leads her to question her world and her existence.",
+      "cast": "Margot Robbie, Ryan Gosling, Issa Rae",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWVmODY4MjYtZGViYS00MzJjLWI3NTUtODgyYzU3ZTY1NzU4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/8zIf0XvoL9Y"
+    },
+    {
+      "title": "John Wick",
+      "genres": ["Action", "Crime", "Thriller"],
+      "release_year": 2014,
+      "rating": 7.4,
+      "description": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
+      "cast": "Keanu Reeves, Michael Nyqvist, Alfie Allen",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/2AUmvWm5ZDQ"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "genres": ["Animation", "Action", "Adventure"],
+      "release_year": 2023,
+      "rating": 8.7,
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+      "cast": "Shameik Moore, Hailee Steinfeld, Oscar Isaac",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4NC00ZjQ0LWFjYzctYzgxNDBmZjY3YzVhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/shW9i6k8cB0"
+    },
+    {
+      "title": "Interstellar",
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
+      "release_year": 2014,
+      "rating": 8.6,
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGYyLWFmMjktY2FiMmMxY2FmODM2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/zSWdZVtXT7E"
+    },
+    {
+      "title": "The Lion King",
+      "genres": ["Animation", "Adventure", "Drama"],
+      "release_year": 1994,
+      "rating": 8.5,
+      "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "cast": "Matthew Broderick, Jeremy Irons, James Earl Jones",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/4sj1MT05lAA"
+    },
+    {
+      "title": "La La Land",
+      "genres": ["Comedy", "Drama", "Music"],
+      "release_year": 2016,
+      "rating": 8.0,
+      "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+      "cast": "Ryan Gosling, Emma Stone, Rosemarie DeWitt",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/0pdqf4P9MB8"
+    },
+    {
+      "title": "Dune",
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "release_year": 2021,
+      "rating": 8.0,
+      "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "cast": "Timothée Chalamet, Rebecca Ferguson, Zendaya",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/8g18jFHCLXk"
+    },
+    {
+      "title": "The Matrix",
+      "genres": ["Action", "Sci-Fi"],
+      "release_year": 1999,
+      "rating": 8.7,
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/vKQi3bBA1y8"
+    },
+    {
+      "title": "Fight Club",
+      "genres": ["Drama"],
+      "release_year": 1999,
+      "rating": 8.8,
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "cast": "Brad Pitt, Edward Norton, Meat Loaf",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTY@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/SUXWAEX2jlg"
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "genres": ["Adventure", "Comedy", "Crime"],
+      "release_year": 2014,
+      "rating": 8.1,
+      "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+      "cast": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/1Fg5iWmQjwk"
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genres": ["Adventure", "Drama", "Fantasy"],
+      "release_year": 2001,
+      "rating": 8.8,
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "cast": "Elijah Wood, Ian McKellen, Orlando Bloom",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/V75dMMIW2B4"
+    },
+    {
+      "title": "Whiplash",
+      "genres": ["Drama", "Music"],
+      "release_year": 2014,
+      "rating": 8.5,
+      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "cast": "Miles Teller, J.K. Simmons, Melissa Benoist",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTAtNjU0My00ZmRhLWIzZDctOTM0ZmQwNTdiOTBjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/embed/7d_jQycdQGo"
+    }
+]
